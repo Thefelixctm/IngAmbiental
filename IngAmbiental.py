@@ -319,7 +319,7 @@ def simular_escenario(datos_base, cambios):
 # ---------------------------
 try:
     # Si no hay internet o la imagen remota falla, muestro texto
-    st.sidebar.image("https://via.placeholder.com/200x100.png?text=UTEM", use_container_width=True)
+    st.sidebar.image("logo_utem.jpg", use_container_width=True)
 except Exception:
     st.sidebar.markdown("### 🏛️ UTEM")
 
@@ -1366,4 +1366,5 @@ st.markdown("""
     <p>🌱 Sistema de Gestión Ambiental | Universidad Tecnológica Metropolitana | 2024</p>
     <p>Ingeniería Ambiental - Sección 411</p>
 </div>
+
 """, unsafe_allow_html=True)
