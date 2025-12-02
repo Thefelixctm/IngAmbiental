@@ -495,9 +495,7 @@ if pagina == "Dashboard Principal":
     
     if img_encontrada:
         st.image(img_encontrada, caption="Condiciones para la creación del sistema informático (referencia)", use_container_width=True)
-    else:
-        st.info("Para agregar una imagen de referencia, coloquela en la carpeta 'imagenes' con el nombre 'referencia.png' o 'tabla_referencia.png'")
-        
+           
         # Opción para subir imagen
         with st.expander("Subir imagen de referencia"):
             uploaded_file = st.file_uploader("Seleccione una imagen", type=['png', 'jpg', 'jpeg'], key="upload_referencia")
@@ -1656,3 +1654,4 @@ st.markdown("""
     <p>Ingeniería Ambiental - Sección 411</p>
 </div>
 """, unsafe_allow_html=True)
+
